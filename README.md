@@ -11,3 +11,6 @@
 
 <div>Layer 2</div>
 <img width="auto" height="auto" alt="Image" src="./public/img/layer2.png" />
+
+<div>Layer 3 マウス使用した際はこのマップ</div>
+<img width="auto" height="auto" alt="Image" src="https://github.com/user-attachments/assets/2efe5275-e460-41bc-ae45-0c0665435268" />
