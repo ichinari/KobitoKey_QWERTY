@@ -72,10 +72,10 @@
         layer2 {
             label = "FUNCTION";
             bindings = <
-&none         &none      &kp K_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &screenshot_tool  &none          &none             &none          &none
-&bt BT_SEL 0  &kp LG(Z)  &kp LG(X)   &kp LG(C)     &kp LG(V)        &kp LC(LEFT)      &kp LC(DOWN)   &kp LC(UP_ARROW)  &kp LC(RIGHT)  &none
-&bt BT_SEL 1  &trans     &trans      &trans        &none            &kp RCTRL         &kp RC(SPACE)  &kp RIGHT_SHIFT   &kp RIGHT_GUI  &trans
-&bt BT_SEL 2  &trans     &trans      &trans        &trans           &none             &trans         &trans            &trans         &trans
+&none      &none      &kp K_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &screenshot_tool  &none          &bt BT_SEL 0      &bt BT_SEL 1   &bt BT_SEL 2
+&kp LG(Z)  &kp LG(X)  &kp LG(C)   &kp LG(V)     &none            &kp LC(LEFT)      &kp LC(DOWN)   &kp LC(UP_ARROW)  &kp LC(RIGHT)  &none
+&none      &trans     &trans      &trans        &none            &kp RCTRL         &kp RC(SPACE)  &kp RIGHT_SHIFT   &kp RIGHT_GUI  &trans
+&none      &trans     &trans      &trans        &trans           &none             &trans         &trans            &trans         &trans
             >;
         };
 
